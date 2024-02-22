@@ -8,7 +8,8 @@ gem "puma", ">= 5.0"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
-gem 'vite_rails'
+gem 'vite_rails', '~> 3.0', '>= 3.0.17'
+gem 'dotenv-rails', '~> 3.0', '>= 3.0.2'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]

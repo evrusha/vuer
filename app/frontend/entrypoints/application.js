@@ -12,4 +12,3 @@ const app = createApp({
 app.component('ButtonCounter', ButtonCounter)
 
 app.mount('#app');
-console.log("app", app);

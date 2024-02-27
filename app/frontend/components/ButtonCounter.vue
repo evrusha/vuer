@@ -3,7 +3,9 @@
 
   const count = ref(0)
 
-  onMounted(() => {})
+  onMounted(() => {
+    console.log(gon.products)
+  })
 </script>
 
 <template>

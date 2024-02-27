@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <button @click="count++">{{ count }}</button>
+  <button @click="count++" v-html="count" />
 </template>
 
 <style scoped>

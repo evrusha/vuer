@@ -1,14 +1,8 @@
-import { createApp } from 'vue/dist/vue.esm-bundler';
-import ButtonCounter from '../components/ButtonCounter.vue'
+import { createApp, ref } from 'vue/dist/vue.esm-bundler';
+import ButtonCounter from '../components/ButtonCounter.vue';
 
-const app = createApp({
-  data() {
-    return {
-      course: 'Intro to Vue 3 and Rails'
-    }
-  }
-})
+const app = createApp();
 
-app.component('ButtonCounter', ButtonCounter)
+app.component('ButtonCounter', ButtonCounter);
 
 app.mount('#app');

@@ -1,13 +1,15 @@
-<script>
-export default {
-  data() {
-    return {
-      count: 0
-    }
-  }
-}
+<script setup lang="ts">
+  import { ref } from 'vue'
+
+  const count = ref(0)
 </script>
 
 <template>
-  <button @click="count++">You clicked me {{ count }} times.</button>
+  <button @click="count++">{{ count }}</button>
 </template>
+
+<style scoped>
+  button {
+    width: 500px;
+  }
+</style>

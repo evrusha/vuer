@@ -10,6 +10,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem 'vite_rails', '~> 3.0', '>= 3.0.17'
 gem 'dotenv-rails', '~> 3.0', '>= 3.0.2'
+gem 'gon'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
